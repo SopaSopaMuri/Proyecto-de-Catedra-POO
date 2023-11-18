@@ -1,0 +1,15 @@
+Paso.1: Organizacion
+
+En una misma carpeta pon las siguientes carpetas y archivos:
+	
+	-Proyecto_Catedra
+	-package
+	-Proyecto_Catedra.sln
+
+Paso.2: Base de Datos
+
+Descargar el Script de SQL y ejecutarlo.
+
+Paso.3: En caso de tener problemas de conexion
+Escribe directamente el nombre de tu servidor en la cadena de conexion del archivo App.Config
+
