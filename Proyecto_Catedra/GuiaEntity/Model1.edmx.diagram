@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="077a96f2576e4823a03e0f3a4b35e56d" Name="Diagram1">
+        <EntityTypeShape EntityType="hotel_CabanasModel.Empleados" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="hotel_CabanasModel.Gastos" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hotel_CabanasModel.Habitaciones" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="hotel_CabanasModel.Hotel" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="hotel_CabanasModel.Huespedes" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="hotel_CabanasModel.Ingresos" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="hotel_CabanasModel.Reservaciones" Width="1.5" PointX="5.25" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hotel_CabanasModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="hotel_CabanasModel.FK__Gastos__HotelID__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="hotel_CabanasModel.FK__Habitacio__Hotel__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="hotel_CabanasModel.FK__Reservaci__Habit__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="hotel_CabanasModel.FK__Ingresos__HotelI__44FF419A" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
